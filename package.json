@@ -1,0 +1,25 @@
+{
+  "name": "dostoevsky-mock-server",
+  "version": "0.0.1",
+  "description": "To test dostoevsky",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Raphexion/dostoevsky-mock-server.git"
+  },
+  "keywords": [
+    "dostoevsky"
+  ],
+  "author": "Niklas Johansson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raphexion/dostoevsky-mock-server/issues"
+  },
+  "homepage": "https://github.com/Raphexion/dostoevsky-mock-server#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
