@@ -5,8 +5,8 @@ var app = express();
 app.use(express.json());
 
 app.post('/', function(request, response){
-  console.log(request.body);      // your JSON
-   response.send(request.body);    // echo the result back
+    console.log(request.body);      // your JSON
+    response.status(200).send(request.body);
 });
 
 app.listen(3000);
